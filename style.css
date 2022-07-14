@@ -1,0 +1,228 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Barlow, sans-serif;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.5;
+    color: hsl(245, 6%, 54%);
+    background-color: hsl(26, 100%, 99%);
+  }
+
+.navbar-item {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 34px;
+}
+
+button {
+    display: inline;
+    border: none;
+    border-radius: 28px;
+    margin-left: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-right: 48px;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+
+}
+
+.navbar-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    float: right;
+}
+
+.navbar-title {
+    padding: 10px;
+    margin: 10px;
+}
+
+header {
+    width: 1440px;
+    height: 800px;
+    background-image: url('.assets/img/image-header.jpg');
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+width: 750px;
+height: 69px;
+left: 344.5px;
+top: 195px;
+
+font-family: 'Fraunces 9pt Soft';
+font-style: normal;
+font-weight: 900;
+font-size: 56px;
+line-height: 69px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 8.75px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+/* section about */
+
+.class-about {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.about-text1 {
+    width: 720px;
+    height: 600px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+
+    letter-spacing: -0.128571px;
+
+    color: #808397;
+}
+
+.about-text2 {
+    width: 720px;
+    height: 600px;
+}
+
+/* Section services*/
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.graphic-design {
+    background-image: url(".assets/img/image-graphic-design.jpg");
+    width: 720px;
+    height: 600px;
+}
+
+.photography {
+    background-image: url(".assets/img/image-photography.jpg");
+    width: 720px;
+    height: 600px;
+}
+
+/* Section clients */
+
+.clients {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.emily {
+    width: 480px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thomas {
+    width: 480px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.jennie {
+    width: 480px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Section gallery */
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.milkbottles{
+    background-image: url('.assets/img/image-gallery-milkbottles.jpg');
+    width: 360px;
+    height: 500px;
+}
+
+.orange{
+    background-image: url('.assets/img/image-gallery-orange.jpg');
+    width: 360px;
+    height: 500px;
+}
+
+.cone{
+    background-image: url('.assets/img/image-gallery-cone.jpg');
+    width: 360px;
+    height: 500px;
+}
+
+.sugar{
+    background-image: url('.assets/img/image-gallery-sugarcubes.jpg');
+    width: 360px;
+    height: 500px;
+}
+
+/* section footer */
+
+.footer{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1440;
+    height: 350px;
+    background-color: #90D4C6;
+    align-items: center;
+}
+
+
+/* For Mobile Portrait View */
+
+@media screen and (max-device-width: 480px)
+and (orientation: portrait) 
+{
+    html, body {
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        width: 375px;
+        height: 538px;
+        background-image: url('.assets/img/image-header.jpg');
+        background-size: cover;
+        background-position: bottom;
+        position: relative;
+    }
+
+}
