@@ -1,0 +1,372 @@
+        html, body {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: Barlow, sans-serif;
+            font-weight: 600;
+            font-size: 1.125rem;
+            line-height: 1.5;
+            color: hsl(245, 6%, 54%);
+            background-color: hsl(26, 100%, 99%);
+        
+            .navbar-item {
+            padding-top: 15px;
+            padding-bottom: 15px;
+            margin-top: 34px;
+            }
+
+            button {
+                display: inline;
+                border: none;
+                border-radius: 28px;
+                margin-left: 30px;
+                padding-left: 30px;
+                padding-right: 30px;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                margin-right: 48px;
+                font-family: 'Fraunces';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 15px;
+                line-height: 25px;
+            }
+            
+            .navbar-menu {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                display: flex;
+                flex-direction: row;
+                float: right;
+            }
+            
+            .navbar-title {
+                padding: 10px;
+                margin: 10px;
+            }
+
+            header {
+                width: 1440px;
+                height: 800px;
+                background-image: url('.assets/img/image-header.jpg');
+                background-size: cover;
+                background-position: bottom;
+                position: relative;
+            
+                h1 {
+                position: absolute;
+                width: 750px;
+                height: 69px;
+                left: 344.5px;
+                top: 195px;
+            
+                font-family: 'Fraunces 9pt Soft';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 56px;
+                line-height: 69px;
+                /* identical to box height */
+            
+                text-align: center;
+                letter-spacing: 8.75px;
+                text-transform: uppercase;
+            
+                color: #FFFFFF;
+                }
+            }
+
+            /* section about */
+                .class-about {
+                    display: flex;
+                    margin: 0;
+                    padding: 0;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                
+                    .about-text1 {
+                        width: 720px;
+                        height: 600px;
+                        font-family: 'Barlow';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 18px;
+                        line-height: 30px;
+                        /* or 167% */
+                        letter-spacing: -0.128571px;
+                        color: #808397;
+                    }
+
+                    .about-text2 {
+                        width: 720px;
+                        height: 600px;
+                    }
+                }
+
+                /* Section services*/
+                .services {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+
+                    .graphic-design {
+                        background-image: url(".assets/img/image-graphic-design.jpg");
+                        width: 720px;
+                        height: 600px;
+                    }
+
+                    .photography {
+                        background-image: url(".assets/img/image-photography.jpg");
+                        width: 720px;
+                        height: 600px;
+                    }
+                }
+
+                /* section about */
+
+        .class-about {
+            display: flex;
+            margin: 0;
+            padding: 0;
+            flex-wrap: wrap;
+            justify-content: center;
+        
+            .about-text1 {
+            width: 720px;
+            height: 600px;
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 30px;
+            /* or 167% */
+            letter-spacing: -0.128571px;
+            color: #808397;
+            }
+        
+            .about-text2 {
+            width: 720px;
+            height: 600px;
+            }
+        }
+        
+        /* Section services*/
+        
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        
+            .graphic-design {
+            background-image: url(".assets/img/image-graphic-design.jpg");
+            width: 720px;
+            height: 600px;
+            }
+        
+            .photography {
+            background-image: url(".assets/img/image-photography.jpg");
+            width: 720px;
+            height: 600px;
+            }
+        }
+        
+        /* Section clients */
+        
+        .clients {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        
+            .emily {
+            width: 480px;
+            height: 800px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            }
+        
+            .thomas {
+            width: 480px;
+            height: 800px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            }
+        
+            .jennie {
+            width: 480px;
+            height: 800px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            }
+        }
+        
+        /* Section gallery */
+        
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        
+            .milkbottles {
+            background-image: url('.assets/img/image-gallery-milkbottles.jpg');
+            width: 360px;
+            height: 500px;
+            }
+        
+            .orange {
+            background-image: url('.assets/img/image-gallery-orange.jpg');
+            width: 360px;
+            height: 500px;
+            }
+        
+            .cone {
+            background-image: url('.assets/img/image-gallery-cone.jpg');
+            width: 360px;
+            height: 500px;
+            }
+        
+            .sugar {
+            background-image: url('.assets/img/image-gallery-sugarcubes.jpg');
+            width: 360px;
+            height: 500px;
+            }
+        }
+
+            /* Section footer */
+        .footer{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 1440;
+            height: 350px;
+            background-color: #90D4C6;
+            align-items: center;
+        
+        }
+        }
+        @media only screen and (max-width: 768px) {
+            /* styles pour les écrans de moins de 768px de large (téléphones) */
+            body {
+              font-size: 1rem;
+            }
+            
+            .navbar-menu {
+              float: none;
+              display: block;
+              text-align: center;
+            }
+            
+            button {
+              margin: 10px auto;
+            }
+            
+            header {
+              height: 600px;
+              
+              h1 {
+                width: 100%;
+                font-size: 40px;
+                top: 50%;
+                transform: translateY(-50%);
+              }
+            }
+            
+            .class-about {
+              .about-text1, .about-text2 {
+                width: 100%;
+                height: auto;
+              }
+            }
+            
+            .services {
+              .graphic-design, .photography {
+                width: 100%;
+                height: auto;
+                background-position: center;
+              }
+            }
+            
+            .clients {
+              .emily, .thomas, .jennie {
+                width: 100%;
+                height: auto;
+                margin-bottom: 30px;
+              }
+            }
+            
+            .gallery {
+              .milkbottles, .orange, .cone, .sugar-cubes {
+                width: 100%;
+                height: 400px;
+              }
+            }
+          }
+          
+          @media only screen and (min-width: 769px) and (max-width: 1024px) {
+            /* styles pour les écrans entre 769px et 1024px de large (tablettes) */
+            body {
+              font-size: 1.25rem;
+            }
+            
+            .navbar-menu {
+              float: none;
+              display: block;
+              text-align: center;
+            }
+            
+            button {
+              margin: 20px;
+            }
+            
+            header {
+              height: 700px;
+              
+              h1 {
+                width: 70%;
+                font-size: 48px;
+                top: 50%;
+                transform: translateY(-50%);
+              }
+            }
+            
+            .class-about {
+              .about-text1, .about-text2 {
+                width: 50%;
+                height: auto;
+              }
+            }
+            
+            .services {
+              .graphic-design, .photography {
+                width: 50%;
+                height: 600px;
+                background-position: center;
+              }
+            }
+            
+            .clients {
+              .emily, .thomas, .jennie {
+                width: 30%;
+                height: 700px;
+                margin-right: 30px;
+              }
+            }
+            
+            .gallery {
+              .milkbottles {
+                width: 50%;
+                height: 600px;
+              }
+              
+              .orange, .cone, .sugar-cubes {
+                width: 25%;
+                height: 300px;
+              }
+            }
+          }
+          
+        
